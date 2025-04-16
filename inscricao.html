@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição | Programa SER - Projeto Mover-se</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Programa <span>SER</span></div>
+                <a href="#nav" class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="moverse.html">Mover-se</a></li>
+                        <li><a href="calendario.html">Calendário</a></li>
+                        <li><a href="depoimentos.html">Depoimentos</a></li>
+                        <li><a href="inscricao.html">Inscrição</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner" style="height: 40vh; background-image: url('https://source.unsplash.com/random/1200x800/?registration,form');">
+        <div class="banner-content">
+            <h1>Inscreva-se nas Atividades</h1>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <h2>Formulário de Inscrição</h2>
+            </div>
+            <p class="text-center mb-2">Preencha o formulário abaixo para participar das atividades do Projeto Mover-se. É rápido e simples!</p>
+            
+            <div style="max-width: 600px; margin: 0 auto;">
+                <form>
+                    <div class="form-group">
+                        <label for="nome">Nome Completo*</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="curso">Curso*</label>
+                        <select id="curso" name="curso" required>
+                            <option value="">Selecione seu curso</option>
+                            <option value="administracao">Administração</option>
+                            <option value="direito">Direito</option>
+                            <option value="engenharia">Engenharia</option>
+                            <option value="medicina">Medicina</option>
+                            <option value="psicologia">Psicologia</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="periodo">Período*</label>
+                        <select id="periodo" name="periodo" required>
+                            <option value="">Selecione seu período</option>
+                            <option value="1">1º Período</option>
+                            <option value="2">2º Período</option>
+                            <option value="3">3º Período</option>
+                            <option value="4">4º Período</option>
+                            <option value="5">5º Período</option>
+                            <option value="6+">6º Período ou superior</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="atividade">Atividade de Interesse*</label>
+                        <select id="atividade" name="atividade" required>
+                            <option value="">Selecione a atividade</option>
+                            <option value="yoga">Yoga</option>
+                            <option value="corrida">Corrida</option>
+                            <option value="alongamento">Alongamento</option>
+                            <option value="caminhada">Caminhada</option>
+                            <option value="jogos">Jogos Coletivos</option>
+                            <option value="danca">Dança</option>
+                            <option value="tabuleiro">Jogos de Tabuleiro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="horario">Horário Preferido</label>
+                        <select id="horario" name="horario">
+                            <option value="">Selecione o horário</option>
+                            <option value="manha">Manhã (7h às 12h)</option>
+                            <option value="almoco">Horário de Almoço (12h às 14h)</option>
+                            <option value="tarde">Tarde (14h às 18h)</option>
+                            <option value="noite">Noite (após 18h)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="experiencia">Experiência Prévia</label>
+                        <select id="experiencia" name="experiencia">
+                            <option value="nenhuma">Nenhuma experiência</option>
+                            <option value="pouca">Pouca experiência</option>
+                            <option value="moderada">Experiência moderada</option>
+                            <option value="avancada">Experiência avançada</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="observacoes">Observações ou Restrições de Saúde</label>
+                        <textarea id="observacoes" name="observacoes" rows="4"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" name="termos" required>
+                            Concordo com os termos e condições do Programa SER
+                        </label>
+                    </div>
+                    
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Enviar Inscrição</button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="about-content mt-2">
+                <h3>Informações Importantes</h3>
+                <ul class="goals-list">
+                    <li>As atividades são gratuitas para estudantes da FAE Universidade</li>
+                    <li>As vagas são limitadas e preenchidas por ordem de inscrição</li>
+                    <li>Você receberá um e-mail de confirmação em até 48 horas</li>
+                    <li>Traga roupas confortáveis e adequadas para a atividade escolhida</li>
+                    <li>Em caso de desistência, pedimos que informe com antecedência para que outros alunos possam participar</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Programa SER</h3>
+                    <p>Uma iniciativa da FAE Universidade para promover o bem-estar e a qualidade de vida dos estudantes.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 Programa SER - FAE Universidade</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
