@@ -1,3 +1,4 @@
+
 /* CSS Reset */
 * {
   margin: 0;
@@ -107,7 +108,7 @@ nav::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('https://source.unsplash.com/random/1200x200/?abstract,purple');
+  background-image: url('https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80');
   background-size: cover;
   background-position: center;
   opacity: 0.1;
@@ -193,7 +194,6 @@ nav ul li a.active::after {
 .banner {
   height: 60vh;
   min-height: 300px;
-  background-image: url('https://source.unsplash.com/random/1200x800/?university,wellness');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -349,30 +349,58 @@ section {
 
 .activity-card.yoga {
   background-color: rgba(213, 222, 255, 0.3);
+  background-image: url('https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
 }
 
 .activity-card.corrida {
   background-color: rgba(255, 222, 226, 0.3);
+  background-image: url('https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
 }
 
 .activity-card.alongamento {
   background-color: rgba(213, 255, 222, 0.3);
+  background-image: url('https://images.unsplash.com/photo-1570691079236-4bca6c45d440?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
 }
 
 .activity-card.caminhada {
   background-color: rgba(253, 225, 211, 0.3);
+  background-image: url('https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
 }
 
 .activity-card.jogos {
   background-color: rgba(255, 247, 205, 0.3);
+  background-image: url('https://images.unsplash.com/photo-1529105356437-d9f4e905a8f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
 }
 
 .activity-card.danca {
   background-color: rgba(229, 222, 255, 0.3);
+  background-image: url('https://images.unsplash.com/photo-1525900132622-d08d78d1e48a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
 }
 
 .activity-card.tabuleiro {
   background-color: rgba(222, 247, 255, 0.3);
+  background-image: url('https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Testimonial Card */
@@ -394,7 +422,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('https://source.unsplash.com/random/400x200/?nature,soft');
+  background-image: url('https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
   background-size: cover;
   background-position: center;
   opacity: 0.03;
@@ -464,7 +492,7 @@ form::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('https://source.unsplash.com/random/800x600/?gradient,soft');
+  background-image: url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
   background-size: cover;
   background-position: center;
   opacity: 0.03;
@@ -605,7 +633,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('https://source.unsplash.com/random/800x600/?university,soft');
+  background-image: url('https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
   background-size: cover;
   background-position: center;
   opacity: 0.03;
@@ -644,7 +672,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('https://source.unsplash.com/random/800x400/?contact,soft');
+  background-image: url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
   background-size: cover;
   background-position: center;
   opacity: 0.03;
@@ -705,7 +733,7 @@ body.contato-page nav ul li:nth-child(7) a::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('https://source.unsplash.com/random/300x300/?abstract,soft');
+  background-image: url('https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
   background-size: cover;
   background-position: center;
   opacity: 0.05;
@@ -723,4 +751,15 @@ body.contato-page nav ul li:nth-child(7) a::after {
 .activity-card p {
   position: relative;
   z-index: 1;
+}
+
+/* Adicionar classe de página ao body */
+body.index-page {
+  background-image: url('https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: rgba(255, 255, 255, 0.95);
 }
