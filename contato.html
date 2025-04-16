@@ -80,6 +80,18 @@
                 </div>
             </div>
             
+            <div class="download-section">
+                <div class="section-title">
+                    <h2>Download do Site</h2>
+                </div>
+                <p>Baixe o código-fonte completo do site para entrega ao professor:</p>
+                <div class="text-center">
+                    <a href="site-programa-ser.zip" download class="btn btn-download">
+                        <i class="fas fa-download"></i> Baixar Site (ZIP)
+                    </a>
+                </div>
+            </div>
+            
             <div style="max-width: 600px; margin: 2rem auto 0;">
                 <div class="section-title">
                     <h2>Envie uma Mensagem</h2>
@@ -141,5 +153,19 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Para simular o download do site quando não temos o arquivo ZIP real
+            const downloadButton = document.querySelector('.btn-download');
+            
+            downloadButton.addEventListener('click', function(e) {
+                // Esta função apenas exibirá um alert no momento, já que não temos um arquivo ZIP real para download
+                // Em um ambiente de produção, você substituiria isso pelo arquivo ZIP real
+                e.preventDefault();
+                alert('O arquivo ZIP seria baixado em um ambiente de produção. Para entregar ao professor, você precisará criar o arquivo ZIP manualmente com todos os arquivos do site.');
+            });
+        });
+    </script>
 </body>
 </html>
